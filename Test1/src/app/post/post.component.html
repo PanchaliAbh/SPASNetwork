@@ -1,0 +1,28 @@
+<h1>The Details of Article with an ID: {{id}}</h1>
+<div style="background-color: white">
+    <p> </p>
+</div>
+<div style="background-color: rgb(102, 102, 105)">
+   <h2 style="color: red">Post</h2>
+    <h3>User ID : {{userId}}</h3>
+    <h4>Post ID : {{pid}}</h4>
+   <h4>Title : {{ptitle}}</h4>
+   <h4>Body : {{pbody}}</h4>
+   
+</div>
+<div style="background-color: white">
+    <p> </p>
+</div>
+<h2 style="color: red">Comments</h2>
+<div *ngFor="let d3 of data3" style="background-color: rgb(230, 230, 240)">
+   
+    <h3>Post ID : {{d3.postId}}</h3>
+    <h4>ID : {{d3.id}}</h4>
+   <h4>Name : {{d3.name}}</h4>
+   <h4>Email : {{d3.email}}</h4>
+   <h5>Body : {{d3.body}}</h5>
+   <div style="background-color: white">
+    <p> </p>
+   </div>
+
+</div>

@@ -1,0 +1,13 @@
+
+<div *ngFor="let d of data" style="background-color: rgb(102, 102, 105)">
+   
+       <h3>User ID : {{d.userId}}</h3>
+       <h4>ID : {{d.id}}</h4>
+      <h4>Title : {{d.title}}</h4>
+      <h4>Body : {{d.body}}</h4>
+      <button style="background-color: #f44336;border-radius: 8px;" class="nav-link" routerLink="post" 
+      routerLinkActive="active" [routerLink]="['/post', d.id]">View Post</button>
+      <div style="background-color: white">
+          <p> </p>
+      </div>
+</div>
