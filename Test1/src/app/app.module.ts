@@ -5,9 +5,9 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HttpClientModule } from '@angular/common/http';
 import {CommonModule} from '@angular/common';
-import { PostComponent } from './post/post.component';
+import { PostComponent } from './posts/post/post.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-import { NewsFeedComponent } from './news-feed/news-feed.component';
+import { NewsFeedComponent } from './posts/news-feed/news-feed.component';
 
 
 @NgModule({
